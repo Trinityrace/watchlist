@@ -1,6 +1,6 @@
 from flask import render_template
 from app import app
-from .requests import get_movies,get_movie
+from .request import get_movies
 
 # #views
 # @app.route('/')
